@@ -1,0 +1,50 @@
+@import '@copilotkit/angular/styles.css';
+
+:root {
+  --text: #141414;
+  --muted: #6b6b6b;
+  --line: #ededed;
+  --field: #dadada;
+  --soft: #f4f4f4;
+  --accent: #141414;
+  --rain: #4a6fa5;
+
+  color: var(--text);
+  background: #5aa4ea;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+/* Cards rendered in the chat by the tool views. */
+.card {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.card .row,
+.card.row {
+  padding: 14px 16px;
+}
+
+.card .row + .row {
+  border-top: 1px solid var(--line);
+}
+
+.title {
+  font-weight: 500;
+}
+
+.sub {
+  margin: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
